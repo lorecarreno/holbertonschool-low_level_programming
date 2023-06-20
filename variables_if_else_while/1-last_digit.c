@@ -4,7 +4,6 @@
 
 /**
  * main - print the last digit of n
- *
  * Return: 0
  */
 
@@ -18,11 +17,11 @@ int main(void)
 
 	if (last > 5)
 	{
-		printf("Last digit of %d and is greater than 5\n", n, last);
+		printf("Last digit of %d is %d and is greater than 5\n", n, last);
 	}
 	else if (last != 0 && last < 6)
 	{
-		printf("last digit of %d is %d and is less than 6 and not 0\n", n, last);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, last);
 	}
 	else
 	{
@@ -30,3 +29,4 @@ int main(void)
 	}
 	return (0);
 }
+
